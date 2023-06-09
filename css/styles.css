@@ -1,3 +1,5 @@
+
+
 html {
     height: 100%;
     box-sizing: border-box;
@@ -6,7 +8,7 @@ body {
     margin:0;
     padding:0;
     background-image: url("https://images.unsplash.com/photo-1451337516015-6b6e9a44a8a3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80");
-    background-size: cover;
+    background-size: 116%;
 }
 
 img {
@@ -22,11 +24,16 @@ nav {
 }
 
 main {
-    margin-left: 12vw;
-    margin-right: 12vw;
+    margin: 25px 12vw;
     background: #fff;
     box-shadow: 0 0 15px #888;
     border-radius: 2em;
+    padding: 15px 0px 40px 0px;
+}
+
+.slogan {
+    font-family: 'Caveat';
+    font-size: 24px;
 }
 
 hr {
@@ -47,11 +54,60 @@ hr {
 .Europe,
 .Asia,
 .north {
+    padding: 0px;
+    text-align: center;
     margin: 10px;
     height: 400px;
     background: #ccc;
     box-shadow: 0 0 15px #333;
     border-radius: 3rem;
+    background-size: cover;
+    text-decoration: none;
+}
+
+.Europe p,
+.Asia p,
+.north p{
+    margin-top: 300px;
+    width: 105%;
+    transform: translate(-2.5%);
+    margin-left: auto;
+    margin-right: auto;
+    color:#FFF;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    background: #000;
+    border-radius: .5rem;
+    border: #FFD70022 solid;
+    box-shadow: 0 0 15px #000;
+}
+
+.Europe p {
+    background: #205520;
+}
+
+.Asia p {
+    background: #cc1520;
+}
+
+.north p {
+    background: #201555;
+}
+
+.Europe:hover p {
+    background: #306530;
+    box-shadow: 0 0 25px #8f8;
+}
+
+.Asia:hover p {
+    background: #dc2530;
+    box-shadow: 0 0 25px #f00;
+}
+
+.north:hover p {
+    background: #302565;
+    box-shadow: 0 0 25px #88f;
 }
 
 .Europe:hover,
@@ -59,11 +115,22 @@ hr {
 .north:hover {
     margin: 5px;
     height: 400px;
-    background: #eee;
     box-shadow: 0 0 30px #666;
     border-radius: 3rem;
+    
 }
 
+.Europe{
+    background-image: url("https://images.unsplash.com/photo-1467269204594-9661b134dd2b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80");
+}
+
+.Asia{
+    background-image: url("https://images.unsplash.com/photo-1673265764494-7c13618da332?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80");
+}
+
+.north{
+    background-image: url("https://images.unsplash.com/photo-1540582685196-7f031fa5354e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=869&q=80");
+}
 nav a {
     color: #f2f2f2;
     text-align: center;
@@ -86,11 +153,11 @@ nav a:hover {
     color: black;
 }
 footer {
-    padding: 15px 30px 30px;
+    padding: 25px 70px 30px;
     background: #225;
     background: linear-gradient(120deg, #1d1d1d, #606060);
     color: #888;
-    margin-top: 50px;
+    margin-top: 120px;
     box-shadow: 0 0 80px #000;
 }
 
@@ -110,6 +177,7 @@ footer .end {
 
 h1 {
     font-size: 42px;
+    font-family: 'Russo One', sans-serif;
     margin: 15px;
 }
 
