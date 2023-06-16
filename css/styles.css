@@ -8,7 +8,7 @@ body {
     margin:0;
     padding:0;
     background-image: url("https://images.unsplash.com/photo-1451337516015-6b6e9a44a8a3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80");
-    background-size: 116%;
+    background-size: 300vh;
 }
 
 img {
@@ -45,6 +45,10 @@ hr {
     margin-left: auto;
     margin-right: auto;
 }
+main p {
+    margin-left: 30px;
+    margin-right: 30px;
+}
 
 .counties{
     margin-left: 30px;
@@ -54,7 +58,7 @@ hr {
 .Europe,
 .Asia,
 .north {
-    padding: 0px;
+    padding: 0;
     text-align: center;
     margin: 10px;
     height: 400px;
@@ -157,7 +161,7 @@ footer {
     background: #225;
     background: linear-gradient(120deg, #1d1d1d, #606060);
     color: #888;
-    margin-top: 120px;
+    margin-top: 75px;
     box-shadow: 0 0 80px #000;
 }
 
@@ -182,5 +186,19 @@ h1 {
 }
 
 h4 {
-    front-size: 24;
+    font-size: 24px;
+}
+
+.Contactblock {
+    margin: 15px;
+    border-radius: 2em;
+    box-shadow: 0 0 15px #333;
+    padding: 15px;
+}
+
+.Contact {
+    margin: 15px;
+    border-radius: 1em;
+    background: #ccc;
+    padding: 5px;
 }
